@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <title>Exercicio 10</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="formulario-div container">
+        <form action="">
+            <div class="form-campo">
+                <label for="nome">Nome:</label>
+                <input type="text"  required name="nome" placeholder="EX: joão pereira">
+            </div>
+            <div  class="form-campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel"   required id="telefone" name="telefone" placeholder="Insira seu telefone EX: (13) 35616-7536">
+            </div>
+            <div  class="form-campo">
+                <label for="cpf">CPF:</label>
+                <input type="text"  required id="cpf" name="cpf" placeholder="Insira seu CPF">
+            </div>
+            <div  class="form-campo">
+                <label for="email">E-Mail:</label>
+                <input type="email"  required name="email" placeholder="fulano@gmail.com">
+            </div>
+            <div  class="form-campo">
+                <label for="cep">CEP:</label>
+                <input type="text"  required id="cep" name="cep" placeholder="Insira seu cep EX: 85684-674">
+            </div>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
